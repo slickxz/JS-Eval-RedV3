@@ -1,0 +1,10 @@
+{
+    "author" : ["Nathan#4468/slickxz"],
+    "install_msg" : "Thanks for installing!",
+    "name" : "eval",
+    "short" : "A JS eval command.",
+    "requirements" : ["Js2Py"],
+    "description" : "A JS eval command that uses Js2Py. Bot Owner Only!",
+    "permissions" : ["Send Messages"],
+    "tags" : ['js', 'eval']
+}
