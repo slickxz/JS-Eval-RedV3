@@ -26,7 +26,8 @@ pip install js2py
 ```python
 [p]eval [JS eval code]
 ```
-
+## Contact
+You can find me on the cog and main Red discords at Nathan#4468.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
