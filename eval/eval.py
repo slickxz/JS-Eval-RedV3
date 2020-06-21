@@ -2,11 +2,12 @@ import js2py
 import discord
 from redbot.core import commands, checks, Config
 
-class eval(commands.Cog):
+class JSEval(commands.Cog):
     """Evals code in JS."""
 
     @commands.command(aliases=['ev'])
     @checks.is_owner()
+    """Evals code in JS."""
     async def eval(self, ctx, *, eArg):
         eval = js2py.eval_js(eArg)
         type = js2py.eval_js('typeof '+eArg)

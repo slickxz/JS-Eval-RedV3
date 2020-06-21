@@ -1,4 +1,4 @@
-from .eval import eval
+from .eval import JSEval
 
 def setup(bot):
-    bot.add_cog(eval())
+    bot.add_cog(JSEval())
